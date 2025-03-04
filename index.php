@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION["contador"])) {
-    $_SESSION["contador"] = 0;
+    $_SESSION["contador"] = 1;
 }
 
 if (isset($_POST["next"])) {
@@ -143,6 +143,7 @@ function handlerBack()
 <body>
 
     <header>
+
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" alt="logo" width="100px">
         <h2> Pelis Rk Sam </h2>
         <label>
