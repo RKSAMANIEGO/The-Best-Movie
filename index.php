@@ -138,6 +138,20 @@ function handlerBack()
     .container-button button:hover {
         background-position: right;
     }
+
+    @media (max-width: 675px) {
+
+        header img,
+        h2 {
+            display: none;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 </style>
 
 <body>
